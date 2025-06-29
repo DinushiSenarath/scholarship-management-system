@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h2 {
+    color: #006699;
+}
+.container, .login-box {
+    width: 90%;
+    max-width: 500px;
+    background: rgba(255,255,255,0.95);
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+button:hover {
+    background-color: #218838;
+}
+.error {
+    color: red;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #aaa;
+}
+th, td {
+    padding: 12px;
+    background: #f9f9f9;
+}
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+a:hover {
+    text-decoration: underline;
+}

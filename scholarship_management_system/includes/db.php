@@ -1,0 +1,1 @@
+<?php $conn = new mysqli('localhost', 'root', '', 'scholarship_management_system'); ?>
